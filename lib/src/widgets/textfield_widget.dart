@@ -11,8 +11,10 @@ class TextInputField extends StatelessWidget {
       this.hintColor = Colors.black45,
       this.textAlign = TextAlign.left,
       this.controller,
+      this.onChanged,
       this.inputType})
       : super(key: key);
+  final Function(String)? onChanged;
   final String? hint;
   final TextEditingController? controller;
   final TextInputType? inputType;
@@ -26,6 +28,7 @@ class TextInputField extends StatelessWidget {
       cursorColor: ColorResources.secondaryColor,
       textAlign: textAlign,
       textAlignVertical: TextAlignVertical.bottom,
+      onChanged: onChanged,
       style: TextStyle(
         color: textColor,
         fontWeight: FontWeight.bold,

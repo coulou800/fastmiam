@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "383833337317",
+    "project_id": "fastmiam",
+    "storage_bucket": "fastmiam.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:383833337317:android:34f0b94d60ef74adddd30c",
+        "android_client_info": {
+          "package_name": "com.example.fastmiam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "383833337317-0hi1cepnmkqadlvsla26phjeir3timn9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVHAWW6psEJ0VG58VV0Olqg3-2mEpblks"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "383833337317-0hi1cepnmkqadlvsla26phjeir3timn9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

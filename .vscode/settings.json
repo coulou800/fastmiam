@@ -59,5 +59,32 @@
         "bat": ".bat",
         "powershell": ".ps1",
         "typescript": ".ts"
-    }
+    },
+    "cSpell.words": [
+        "'existe",
+        "'inscrire",
+        "addresse",
+        "bien",
+        "complet",
+        "compter",
+        "creer",
+        "datetime",
+        "envoye",
+        "fastmiam",
+        "Getx",
+        "Heureux",
+        "n",
+        "naissance",
+        "numero",
+        "parmis",
+        "S",
+        "saisie",
+        "utilisateur",
+        "valeur",
+        "Veillez",
+        "Verifation",
+        "veuillez",
+        "votre",
+        "vous"
+    ]
 }

@@ -1,0 +1,24 @@
+{
+    "name":"Client Name",
+    "gender":"gender",
+    "age":"age",
+    "phone":"phone",
+    "address":"address",
+    "cart":{
+        "total":"total",
+        "count":1,
+        "lastUpdateTime":"lastUpdateTime",
+        "items":[
+            
+            {
+                "id":"id",
+                "name":"name",
+                "category":"category",
+                "providerId":"providerId",
+                "price":"price",
+                "addedTime":"addedTime",
+                "prepTime":"prepTime"
+            }
+        ]
+    }
+}
