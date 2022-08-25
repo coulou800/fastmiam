@@ -35,7 +35,7 @@ class TopBAr extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           Container(
-              width: 360.dynamicWidth(),
+              width: Get.width * .65,
               height: 48.dynamicHeight(),
               child: TextField(
                 decoration: InputDecoration(

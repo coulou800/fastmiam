@@ -43,6 +43,7 @@ dependencies:
   firebase_core: ^1.20.1
   carousel_slider: ^4.1.1
   dots_indicator: ^2.1.0
+  rate: ^0.0.2
 
 dev_dependencies:
   flutter_test:
@@ -87,11 +88,27 @@ flutter:
         - asset: assets/fonts/inspiration/Inspiration-Regular.ttf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
-  #   - family: Trajan Pro
-  #     fonts:
-  #       - asset: fonts/TrajanPro.ttf
-  #       - asset: fonts/TrajanPro_Bold.ttf
-  #         weight: 700
+    - family: Nissma
+      fonts:
+        - asset: assets/fonts/nissma/Nissma-Regular.ttf
+   
+    - family: Glaster
+      fonts:
+        - asset: assets/fonts/glaster/GLASTER.ttf
+
+    - family: Mailvien
+      fonts:
+        - asset: assets/fonts/mailvien/Mailvien-Regular.ttf
+ 
+    - family: Mairmaid
+      fonts:
+        - asset: assets/fonts/mairmaid/Mairmaid1001.ttf
+
+    - family: Mairmaid Swash Caps
+      fonts:
+        - asset: assets/fonts/mairmaid/Mairmaid_Swash_Caps.ttf
+
+ 
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages

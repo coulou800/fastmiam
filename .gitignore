@@ -45,3 +45,4 @@ app.*.map.json
 lib/main.dart
 pubspec.lock
 .gitignore
+pubspec.lock

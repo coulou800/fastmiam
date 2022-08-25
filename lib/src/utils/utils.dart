@@ -39,7 +39,7 @@ extension DynamicDim on num {
     double r = (exHeight * exWidth) / 2; //1.777777778
 
     double value = this.toDouble(); //value = 10
-    double factor = r / value; //
+    double factor = (r / value); //
     double t = (Get.height * Get.width) / 2;
     if (kDebugMode) {
       print('radius: $value  dynamicRadius: ${t / factor}');
@@ -51,7 +51,7 @@ extension DynamicDim on num {
     double r = (exHeight * exWidth) / 2;
     // print(r);
     double value = this.toDouble();
-    double factor = r / value;
+    double factor = (r * value) / aspectRatio;
     double t = (Get.height * Get.width) / 2;
     // print('valeur: $value dynamicVal: ${t / factor}');
     return t / factor;
